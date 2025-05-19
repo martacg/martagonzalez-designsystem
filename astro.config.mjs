@@ -14,7 +14,7 @@ export default defineConfig({
 				{
 					label: 'Guía de Estilo',
 					items: [
-						{ label: 'Introducción', slug: 'intro' },
+						{ label: 'Introducción', slug: '/martagonzalez-designsystem/intro' },
 						{ label: 'Paleta de colores', slug: 'colores' },
 						{ label: 'Tipografía', slug: 'tipografia' },
 						{ label: 'Componentes UI', slug: 'componentes' },
