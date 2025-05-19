@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://martagonzalez-designsystem.github.io',
+  	base: 'martagonzalez-designsystem',
 	integrations: [
 		starlight({
 			title: 'Sistema de diseño de martagonzalez.dev',
