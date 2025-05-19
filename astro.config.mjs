@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://martacg.github.io',
+	site: 'https://martacg.github.io/martagonzalez-designsystem/',
   	base: 'martagonzalez-designsystem',
 	integrations: [
 		starlight({
@@ -14,10 +14,10 @@ export default defineConfig({
 				{
 					label: 'Guía de Estilo',
 					items: [
-						{ label: 'Introducción', slug: '/martagonzalez-designsystem/intro' },
-						{ label: 'Paleta de colores', slug: '/martagonzalez-designsystem/colores' },
-						{ label: 'Tipografía', slug: '/martagonzalez-designsystem/tipografia' },
-						{ label: 'Componentes UI', slug: '/martagonzalez-designsystem/componentes' },
+						{ label: 'Introducción', slug: 'intro' },
+						{ label: 'Paleta de colores', slug: 'colores' },
+						{ label: 'Tipografía', slug: 'tipografia' },
+						{ label: 'Componentes UI', slug: 'componentes' },
 					],
 				},
 			],
