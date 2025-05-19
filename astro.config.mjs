@@ -6,19 +6,17 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Sistema de diseño de martagonzalez.dev',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/martacg' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Guía de Estilo',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Introducción', slug: 'intro' },
+						{ label: 'Paleta de colores', slug: 'colores' },
+						{ label: 'Tipografía', slug: 'tipografia' },
+						{ label: 'Componentes UI', slug: 'componentes' },
 					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
 				},
 			],
 		}),
